@@ -1,5 +1,7 @@
-public class Main {
-    public static void main(String[] args) {
+
+public class PracticeWhile {
+
+	public static void main(String[] args) {
         int[] jobs = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5};
         
         for (int i = 0; i < jobs.length; i++) {
@@ -22,6 +24,7 @@ public class Main {
                 default:
                     System.out.println("無効なジョブ番号");
             }
+
         }
-    }
+	}
 }
